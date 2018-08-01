@@ -1,6 +1,6 @@
 plot(mtcars$mpg)
 
-dotchart(mtcars$mpg,labels = row.names(mtcars),cex = 0.8) #cex = fontsize
+dotchart(mtcars$mpg,labels = row.names(mtcars),cex = 0.8) #cex = fontsize row.names = 
 
 carmpg <- mtcars[order(mtcars$mpg),]
 carmpg$cyl <-factor(carmpg$cyl)
